@@ -1,0 +1,36 @@
+Gabarito
+
+Teste 1
+aaaca  -> Sim
+acbca  -> Sim
+cccbca -> Sim
+abcabc -> Não
+bbbaaa -> Não
+
+Teste 2
+abaaa     -> Sim
+abbababa  -> Não
+abaabaaba -> Sim
+aa        -> Não
+abaabbb   -> Sim
+
+Teste 3
+abb       -> Sim
+ababa     -> Sim
+baa       -> Não
+bababaaba -> Sim
+a         -> Sim
+
+Teste 4
+bbbaba -> Sim
+baba   -> Sim
+aabb   -> Sim
+aaba   -> Não
+babaab -> Sim
+
+Teste 5
+aabba        -> Sim
+aaabbab      -> Sim
+aabbabababbb -> Sim
+aabbba       -> Não
+bbaa         -> Não
