@@ -70,12 +70,21 @@ Saída no terminal para o AFD 1:
 Exemplo de arquivo de entrada para a AFD 2:
 
 ```plaintext
-q0,q1,q2
-a,b
-q0,a,q0;q0,b,q1;q1,a,q0;q1,b,q2;q2,a,q0;q2,b,q1
-q0
-q2
-abaabab,babab,bbaabba
+1 2 3 4 e
+a b 
+2 e
+e 3
+4 e 
+4 4
+e e
+1
+4
+5
+abaaa
+abbababa
+abaabaaba
+aa
+abaabbb
 ```
 
 Saída no terminal para o AFD 2:
@@ -93,12 +102,20 @@ Saída no terminal para o AFD 2:
 Exemplo de arquivo de entrada para a AFD 3:
 
 ```plaintext
-q0,q1,q2,q3,q4
-a,b
-q0,a,q1;q1,a,q2;q2,b,q3;q3,b,q4;q4,a,q2
-q0
-q4
-aabba,baabba,aabbaa
+1 2 3 4
+a b
+2 4
+1 3
+4 2
+3 1
+1
+2
+5
+abb
+ababa
+baa
+bababaaba
+a
 ```
 
 Saída no terminal para o AFD 3:
@@ -116,12 +133,20 @@ Saída no terminal para o AFD 3:
 Exemplo de arquivo de entrada para a AFD 4:
 
 ```plaintext
-q0,q1,q2
-a,b
-q0,a,q1;q1,a,q0;q0,b,q2;q2,b,q0
-q0
-q2
-abbaaab,bbabbaa,aaabba
+1 2 3 4
+a b
+1 2
+3 2
+3 4
+1 4
+1
+1 2
+5
+bbbaba
+baba
+aabb
+aaba
+babaab
 ```
 
 Saída no terminal para o AFD 4:
@@ -139,12 +164,22 @@ Saída no terminal para o AFD 4:
 Exemplo de arquivo de entrada para a AFD 5:
 
 ```plaintext
-q0,q1,q2,q3
-0,1
-q0,0,q1;q1,0,q2;q2,1,q3;q3,1,q2
-q0
-q3
-001,0001,0011
+1 2 3 4 5 6
+a b
+2 1
+3 1
+3 4
+2 5
+6 1
+6 6
+1
+6
+5
+aabba
+aaabbab
+aabbabababbb
+aabbba
+bbaa
 ```
 
 ![AFD 5](images/5.png)
