@@ -17,12 +17,13 @@ A implementação lê o arquivo de entrada e armazena as informações em estrut
 ### Exemplo do arquivo de entrada de dados:
 
 ```plaintext
-Lista de estados: q0, q1, q2
-Alfabeto: a, b, c
-Transições: q0,a,q1;q1,b,q2;q2,c,q0
-Estado inicial: q0
-Estados finais: q2
-Palavras de teste: abc, bca, cab
+Primeira linha: os N estados;
+Segunda linha: os M simbolos do alfabeto;
+As proximas N linhas: sao compostas por M valores indicando as transicoes de cada um dos estados;
+A proxima linha: tem o estado inicial;
+A proxima linha: tem F estados finais;
+A proxima linha: tem um numero T qualquer indicando o numero de palavras que serao testadas;
+As proximas T linhas: contem 1 palavra cada, que devem ser validas no automato.
 ```
 
 ## Resultados de testes realizados
@@ -36,12 +37,20 @@ Palavras de teste: abc, bca, cab
 Exemplo de arquivo de entrada para a AFD 1:
 
 ```plaintext
-q0,q1,q2
-a,b,c
-q0,a,q1;q1,b,q2;q2,c,q0
-q0
-q2
-abc,bca,cab
+1 2 3 4
+a b c
+2 2 1
+2 2 3
+4 2 1
+2 2 3
+1
+4
+5
+aaaca
+acbca
+cccbca
+abcabc
+bbbaaa
 ```
 
 Saída no terminal para o AFD 1:
