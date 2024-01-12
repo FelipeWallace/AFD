@@ -31,6 +31,8 @@ Palavras de teste: abc, bca, cab
 
 - Todas as palavras do alfabeto $\Sigma = \{a, b, c\}$ que tenham o sufixo $aca$ ou $bca$.
 
+![AFD 1](AFDs/1.png)
+
 Exemplo de arquivo de entrada para a AFD 1:
 
 ```plaintext
@@ -42,8 +44,6 @@ q2
 abc,bca,cab
 ```
 
-![AFD 1](images/1.png)
-
 Saída no terminal para o AFD 1:
 
 ![Saída AFD 1](images/Teste1.png)
@@ -51,6 +51,8 @@ Saída no terminal para o AFD 1:
 ### AFD 2
 
 - Conjunto das cadeias sobre $\{a,b\}$ que contenham um número par de substrings $ba$.
+
+![AFD 2](AFDs/2.png)
 
 Exemplo de arquivo de entrada para a AFD 2:
 
@@ -63,8 +65,6 @@ q2
 abaabab,babab,bbaabba
 ```
 
-![AFD 2](images/2.png)
-
 Saída no terminal para o AFD 2:
 
 ![Saída AFD 2](images/Teste3.png)
@@ -72,6 +72,8 @@ Saída no terminal para o AFD 2:
 ### AFD 3
 
 - Conjunto das cadeias sobre $\{a,b\}$ que contenham a substring $aabba$.
+
+![AFD 3](AFDs/3.png)
 
 Exemplo de arquivo de entrada para a AFD 3:
 
@@ -84,8 +86,6 @@ q4
 aabba,baabba,aabbaa
 ```
 
-![AFD 3](images/3.png)
-
 Saída no terminal para o AFD 3:
 
 ![Saída AFD 3](images/Teste5.png)
@@ -93,6 +93,8 @@ Saída no terminal para o AFD 3:
 ### AFD 4
 
 - Conjunto das cadeias sobre $\{a,b\}$ com um número ímpar de $a's$ e um número par de $b's$.
+
+![AFD 4](AFDs/4.png)
 
 Exemplo de arquivo de entrada para a AFD 4:
 
@@ -105,8 +107,6 @@ q2
 abbaaab,bbabbaa,aaabba
 ```
 
-![AFD 4](images/4.png)
-
 Saída no terminal para o AFD 4:
 
 ![Saída AFD 4](images/Teste4.png)
@@ -114,6 +114,8 @@ Saída no terminal para o AFD 4:
 ### AFD 5
 
 - Exemplo retirado do PDF do trabalho.
+
+![AFD 5](AFDs/5.png)
 
 Exemplo de arquivo de entrada para a AFD 5:
 
