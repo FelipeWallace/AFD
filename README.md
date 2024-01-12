@@ -32,7 +32,9 @@ As proximas T linhas: contem 1 palavra cada, que devem ser validas no automato.
 
 - Todas as palavras do alfabeto $\Sigma = \{a, b, c\}$ que tenham o sufixo $aca$ ou $bca$.
 
-![AFD 1](AFDs/1.png)
+<div align="center">
+<img src="AFDs/1.png" />
+</div>
 
 Exemplo de arquivo de entrada para a AFD 1:
 
@@ -61,7 +63,9 @@ Saída no terminal para o AFD 1:
 
 - Conjunto das cadeias sobre $\{a,b\}$ que contenham um número par de substrings $ba$.
 
-![AFD 2](AFDs/2.png)
+<div align="center">
+<img src="AFDs/2.png" />
+</div>
 
 Exemplo de arquivo de entrada para a AFD 2:
 
@@ -82,7 +86,9 @@ Saída no terminal para o AFD 2:
 
 - Conjunto das cadeias sobre $\{a,b\}$ que contenham a substring $aabba$.
 
-![AFD 3](AFDs/3.png)
+<div align="center">
+<img src="AFDs/3.png" />
+</div>
 
 Exemplo de arquivo de entrada para a AFD 3:
 
@@ -103,7 +109,9 @@ Saída no terminal para o AFD 3:
 
 - Conjunto das cadeias sobre $\{a,b\}$ com um número ímpar de $a's$ e um número par de $b's$.
 
-![AFD 4](AFDs/4.png)
+<div align="center">
+<img src="AFDs/4.png" />
+</div>
 
 Exemplo de arquivo de entrada para a AFD 4:
 
@@ -124,7 +132,9 @@ Saída no terminal para o AFD 4:
 
 - Exemplo retirado do PDF do trabalho.
 
-![AFD 5](AFDs/5.png)
+<div align="center">
+<img src="AFDs/5.png" />
+</div>
 
 Exemplo de arquivo de entrada para a AFD 5:
 
