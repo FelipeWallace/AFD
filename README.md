@@ -155,8 +155,6 @@ Saída no terminal para o AFD 4:
 
 ### AFD 5
 
-- Exemplo retirado do PDF do trabalho.
-
 <div align="center">
 <img src="AFDs/5.png" />
 </div>
@@ -181,8 +179,6 @@ aabbabababbb
 aabbba
 bbaa
 ```
-
-![AFD 5](images/5.png)
 
 Saída no terminal para o AFD 5:
 
