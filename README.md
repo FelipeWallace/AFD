@@ -57,7 +57,13 @@ bbbaaa
 
 Saída no terminal para o AFD 1:
 
-![Saída AFD 1](images/Teste1.png)
+```
+A palavra 'aaaca' pertence a linguagem
+A palavra 'acbca' pertence a linguagem
+A palavra 'cccbca' pertence a linguagem
+A palavra 'abcabc' não pertence a linguagem
+A palavra 'bbbaaa' não pertence a linguagem
+```
 
 ### AFD 2
 
@@ -89,7 +95,13 @@ abaabbb
 
 Saída no terminal para o AFD 2:
 
-![Saída AFD 2](images/Teste3.png)
+```
+A palavra 'abaaa' pertence a linguagem
+A palavra 'abbababa' não pertence a linguagem
+A palavra 'abaabaaba' pertence a linguagem
+A palavra 'aa' não pertence a linguagem
+A palavra 'abaabbb' pertence a linguagem
+```
 
 ### AFD 3
 
@@ -120,7 +132,13 @@ a
 
 Saída no terminal para o AFD 3:
 
-![Saída AFD 3](images/Teste5.png)
+```
+A palavra 'abb' pertence a linguagem
+A palavra 'ababa' pertence a linguagem
+A palavra 'baa' não pertence a linguagem
+A palavra 'bababaaba' pertence a linguagem
+A palavra 'a' pertence a linguagem
+```
 
 ### AFD 4
 
@@ -151,7 +169,13 @@ babaab
 
 Saída no terminal para o AFD 4:
 
-![Saída AFD 4](images/Teste4.png)
+```
+A palavra 'bbbaba' pertence a linguagem
+A palavra 'baba' pertence a linguagem
+A palavra 'aabb' pertence a linguagem
+A palavra 'aaba' não pertence a linguagem
+A palavra 'babaab' pertence a linguagem
+```
 
 ### AFD 5
 
@@ -182,4 +206,10 @@ bbaa
 
 Saída no terminal para o AFD 5:
 
-![Saída AFD 5](images/Teste2.png)
+```
+A palavra 'aabba' pertence a linguagem
+A palavra 'aaabbab' pertence a linguagem
+A palavra 'aabbabababbb' pertence a linguagem
+A palavra 'aabbba' não pertence a linguagem
+A palavra 'bbaa' não pertence a linguagem
+```
