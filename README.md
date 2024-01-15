@@ -76,44 +76,6 @@ A palavra 'bbbaaa' não pertence a linguagem
 Exemplo de arquivo de entrada para a AFD 2:
 
 ```plaintext
-1 2 3 4 e
-a b 
-2 e
-e 3
-4 e 
-4 4
-e e
-1
-4
-5
-abaaa
-abbababa
-abaabaaba
-aa
-abaabbb
-```
-
-Saída no terminal para o AFD 2:
-
-```
-A palavra 'abaaa' pertence a linguagem
-A palavra 'abbababa' não pertence a linguagem
-A palavra 'abaabaaba' pertence a linguagem
-A palavra 'aa' não pertence a linguagem
-A palavra 'abaabbb' pertence a linguagem
-```
-
-### AFD 3
-
-- Conjunto das cadeias sobre $\{a,b\}$ que contenham a substring $aabba$.
-
-<div align="center">
-<img src="AFDs/3.png" />
-</div>
-
-Exemplo de arquivo de entrada para a AFD 3:
-
-```plaintext
 1 2 3 4
 a b
 2 4
@@ -130,7 +92,7 @@ bababaaba
 a
 ```
 
-Saída no terminal para o AFD 3:
+Saída no terminal para o AFD 2:
 
 ```
 A palavra 'abb' pertence a linguagem
@@ -138,6 +100,45 @@ A palavra 'ababa' pertence a linguagem
 A palavra 'baa' não pertence a linguagem
 A palavra 'bababaaba' pertence a linguagem
 A palavra 'a' pertence a linguagem
+```
+
+### AFD 3
+
+- Conjunto das cadeias sobre $\{a,b\}$ que contenham a substring $aabba$.
+
+<div align="center">
+<img src="AFDs/3.png" />
+</div>
+
+Exemplo de arquivo de entrada para a AFD 3:
+
+```plaintext
+1 2 3 4 5 6
+a b
+2 1
+3 1
+3 4
+2 5
+6 1
+6 6
+1
+6
+5
+aabba
+aaabbab
+aabbabababbb
+aabbba
+bbaa
+```
+
+Saída no terminal para o AFD 3:
+
+```
+A palavra 'aabba' pertence a linguagem
+A palavra 'aaabbab' pertence a linguagem
+A palavra 'aabbabababbb' pertence a linguagem
+A palavra 'aabbba' não pertence a linguagem
+A palavra 'bbaa' não pertence a linguagem
 ```
 
 ### AFD 4
@@ -186,30 +187,29 @@ A palavra 'babaab' pertence a linguagem
 Exemplo de arquivo de entrada para a AFD 5:
 
 ```plaintext
-1 2 3 4 5 6
-a b
-2 1
-3 1
-3 4
-2 5
-6 1
-6 6
+1 2 3 4 e
+a b 
+2 e
+e 3
+4 e 
+4 4
+e e
 1
-6
+4
 5
-aabba
-aaabbab
-aabbabababbb
-aabbba
-bbaa
+abaaa
+abbababa
+abaabaaba
+aa
+abaabbb
 ```
 
 Saída no terminal para o AFD 5:
 
 ```
-A palavra 'aabba' pertence a linguagem
-A palavra 'aaabbab' pertence a linguagem
-A palavra 'aabbabababbb' pertence a linguagem
-A palavra 'aabbba' não pertence a linguagem
-A palavra 'bbaa' não pertence a linguagem
+A palavra 'abaaa' pertence a linguagem
+A palavra 'abbababa' não pertence a linguagem
+A palavra 'abaabaaba' pertence a linguagem
+A palavra 'aa' não pertence a linguagem
+A palavra 'abaabbb' pertence a linguagem
 ```
