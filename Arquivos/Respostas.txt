@@ -8,18 +8,18 @@ abcabc -> Não
 bbbaaa -> Não
 
 Teste 2
-abaaa     -> Sim
-abbababa  -> Não
-abaabaaba -> Sim
-aa        -> Não
-abaabbb   -> Sim
-
-Teste 3
 abb       -> Sim
 ababa     -> Sim
 baa       -> Não
 bababaaba -> Sim
 a         -> Sim
+
+Teste 3
+aabba        -> Sim
+aaabbab      -> Sim
+aabbabababbb -> Sim
+aabbba       -> Não
+bbaa         -> Não
 
 Teste 4
 bbbaba -> Sim
@@ -29,8 +29,8 @@ aaba   -> Não
 babaab -> Sim
 
 Teste 5
-aabba        -> Sim
-aaabbab      -> Sim
-aabbabababbb -> Sim
-aabbba       -> Não
-bbaa         -> Não
+abaaa     -> Sim
+abbababa  -> Não
+abaabaaba -> Sim
+aa        -> Não
+abaabbb   -> Sim
